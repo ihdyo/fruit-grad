@@ -592,8 +592,25 @@ video {
   margin: auto;
 }
 
+.m-8 {
+  margin: 2rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
 .flex {
   display: flex;
+}
+
+.hidden {
+  display: none;
+}
+
+.size-12 {
+  width: 3rem;
+  height: 3rem;
 }
 
 .size-16 {
@@ -654,18 +671,6 @@ video {
   background-color: var(--green);
 }
 
-.bg-\[var\(--yellow\)\] {
-  background-color: var(--yellow);
-}
-
-.bg-\[var\(--red\)\] {
-  background-color: var(--red);
-}
-
-.bg-\[var\(--purple\)\] {
-  background-color: var(--purple);
-}
-
 .bg-\[var\(--magenta\)\] {
   background-color: var(--magenta);
 }
@@ -674,12 +679,20 @@ video {
   background-color: var(--peach);
 }
 
-.bg-\[var\(--pink\)\] {
-  background-color: var(--pink);
+.bg-\[var\(--purple\)\] {
+  background-color: var(--purple);
+}
+
+.bg-\[var\(--red\)\] {
+  background-color: var(--red);
 }
 
 .bg-\[var\(--rose\)\] {
   background-color: var(--rose);
+}
+
+.bg-\[var\(--yellow\)\] {
+  background-color: var(--yellow);
 }
 
 .object-scale-down {
@@ -689,6 +702,10 @@ video {
 
 .p-8 {
   padding: 2rem;
+}
+
+.pb-8 {
+  padding-bottom: 2rem;
 }
 
 .text-center {
